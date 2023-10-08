@@ -1,0 +1,105 @@
+@media only screen and (max-width: 414px) {
+    .img-logo img{
+        width: 28%;
+        padding-top: 10px;
+    }    
+
+    .navbar-light .navbar-toggler{
+        border-color: transparent;
+    }
+
+    .navbar-light .navbar-toggler:focus{
+        color: transparent;
+    }
+
+    /* SECTION */
+
+    .section{
+        background: linear-gradient(to right, #efefef 3.5%, #bbbbbb 3.5%, #bbbbbb 70%, #efefef 70%);
+    }
+
+    .section h1{
+        background: linear-gradient(to right, #000 85%, #bbbbbb 10%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 60px;
+        line-height: 55px; /* 100% */
+    }
+
+    .section p{
+        padding: 5px 0px 50px 3px;
+    }
+
+    /* SECTION 2*/
+
+    .section2{
+        background: linear-gradient(to right, #efefef 3.5%, #bbbbbb 3.5%, #bbbbbb 70%, #efefef 70%);
+        height: 30vh;
+    }
+
+    .role-1 h1{
+        background: linear-gradient(to right, #000 100%, #000 10%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 40px;
+        text-align: start;
+
+    }
+
+    .role-1 p{
+        padding: 0px 0px 20px 0px;
+        font-size: 12px;
+        text-align: start;
+
+    }
+
+    .role-2 h1{
+        background: linear-gradient(to right, #000 100%, #000 10%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 40px;
+        text-align: start;
+
+    }
+
+    /* SECTION 3*/
+
+    .role-3 p{
+        text-align: start;
+        font-size: 12px;
+    }
+
+    /* SECTION 4*/
+    
+    .section4{
+        height: auto;
+    }
+
+    .ovr-img{
+        padding: 0;
+    } 
+
+    .ovr-img img{
+        width: 100%;
+    }
+
+    /*SECTION 5*/
+
+    /*SECTION 7*/
+    .section7{
+        padding: 0px;
+    }
+
+    .tiitle-footer{
+        padding-bottom: 20px;
+    }
+
+    .tiitle-footer h1{
+        font-size: 30px;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .tiitle-footer p{
+        font-size: 13px;
+    }
+}
