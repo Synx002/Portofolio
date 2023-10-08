@@ -1,3 +1,27 @@
+@media only screen and (max-width: 1920px) {
+    .role-1 h1{
+        color: black;
+    }
+    .role-2 h1{
+        padding-top: 120px;
+        background: linear-gradient(to right, #333 52%, #333 10%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .role-1 h1{
+        color: #efefef;
+    }
+    .role-2 h1{
+        padding: 0px;
+        background: linear-gradient(to right, #efefef 52%, #bbbbbb 10%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
+
 @media only screen and (max-width: 414px) {
     .img-logo img{
         width: 28%;
@@ -38,9 +62,7 @@
     }
 
     .role-1 h1{
-        background: linear-gradient(to right, #000 100%, #000 10%);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+        color: #333;
         font-size: 40px;
         text-align: start;
 
@@ -54,7 +76,7 @@
     }
 
     .role-2 h1{
-        background: linear-gradient(to right, #000 100%, #000 10%);
+        background: linear-gradient(to right, #333 52%, #333 10%);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         font-size: 40px;
@@ -102,4 +124,11 @@
     .tiitle-footer p{
         font-size: 13px;
     }
+
+    .nav-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
